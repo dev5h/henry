@@ -343,7 +343,7 @@ h2.\34 5cedewd {
 
 p.s23re {
   padding: 17px 0px;
-  hyphens: auto;
+  hyphens: none;
 }
 .vec7 {
   height: 12vw;
@@ -464,7 +464,7 @@ form.access-form {
 }
 
 .access-form-inputs input {
-    font-size: 12pt;
+    font-size: 9pt;
     /* flex-basis: auto; */
     box-sizing: border-box;
     width: calc(50% - 2.5px);
@@ -490,3 +490,4 @@ button.zipper-login-btn {
   font-size: 13pt;
 }
 }
+/* Hi */
