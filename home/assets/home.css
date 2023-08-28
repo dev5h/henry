@@ -10,14 +10,14 @@ header.head-nav {
   justify-content: space-between;
   align-items: center;
   /* gap: 11px; */
-  padding: 21px 0px;
-  width: 50vw;
+  padding: 8px 0px;
+  width: 52vw;
   margin: auto;
 }
 
 .logo-txt {
   background: #feb501;
-  padding: 18px 20px;
+  padding: 18px 24px;
   font-weight: bold;
   border-radius: 9px;
 }
@@ -27,7 +27,7 @@ header.head-nav {
   background: #063160;
   border-radius: 4px;
   color: #fff;
-  font-size: 18pt;
+  font-size: 12pt;
   font-weight: bold;
   margin-right: 25px;
 }
@@ -36,7 +36,7 @@ span.text-accent {
   color: #feb501;
 }
 section.intro-container {
-  background-image: url(assets/bg.png);
+  background-image: url(bg.png);
   background-size: cover;
   background-position: top;
   background-repeat: no-repeat;
@@ -79,12 +79,13 @@ img.banner {
 
 .intro-head-line {
   color: #fff;
-  font-size: 22pt;
+  font-size: 14pt;
   font-weight: bold;
 }
 
 .intro-line-2 {
   color: #fff;
+  font-size: 11pt;
   padding: 6px 0px;
 }
 
@@ -99,10 +100,11 @@ form.access-form {
 }
 
 .access-form-inputs input {
-  padding: 18px 10px;
+  padding: 10px 10px;
   border: white;
   font-size: 14pt;
-  flex-basis: 50%;
+  box-sizing: border-box;
+  max-width: calc(50% - 2.5px);
 }
 
 .access-form-inputs input:nth-child(1) {
@@ -114,21 +116,21 @@ form.access-form {
 }
 
 button.btn-access-now {
-  padding: 25px 26px;
+  padding: 20px 26px;
   margin: auto;
   background: #feb501;
   border: none;
   width: 100%;
   border-radius: 7px;
-  font-size: 20pt;
+  font-size: 14pt;
   cursor: pointer;
   font-weight: bold;
 }
 .access-form-inputs {
   display: flex;
-  justify-content: stretch;
-  width: 100%;
+  justify-content: center;
   gap: 5px;
+  align-items: center;
 }
 
 .sponser-row {
@@ -149,7 +151,7 @@ button.btn-access-now {
   /* background: #8a6666; */
   height: 22rem;
   width: 101%;
-  background-image: url(assets/zipper.png);
+  background-image: url(zipper.png);
   background-position: bottom;
   background-repeat: no-repeat;
   background-size: cover;
@@ -220,14 +222,14 @@ section.why-works-container {
   height: 12vw;
   width: 100vw;
   /* background: tomato; */
-  background-image: url(assets/Vector5.png);
+  background-image: url(vector5.png);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
 }
 .testimonial-container {
   background-size: cover;
-  background-image: url(assets/testimonial_bg_overlay.png);
+  background-image: url(testimonial_bg_overlay.png);
   padding: 5rem 0rem;
   background-repeat: no-repeat;
   background-position: center;
@@ -302,7 +304,7 @@ section.why-works-container {
   height: 12vw;
   width: 100vw;
   background: #063160;
-  background-image: url(assets/Vector6.png);
+  background-image: url(vector6.png);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -346,7 +348,7 @@ p.s23re {
 .vec7 {
   height: 12vw;
   width: 100vw;
-  background-image: url(assets/Vector7.png);
+  background-image: url(vector7.png);
   background-repeat: no-repeat;
   background-position: bottom;
   background-size: cover;
@@ -373,10 +375,11 @@ h3.footline2 {
   margin-top: 6px;
 }
 img.im-logo {
-  height: 81px;
+  height: 70px;
 }
 video.testicard-avatar-video {
   width: 6rem;
+  height: 150px;
 }
 video.banner-video {
   width: 46vw;
@@ -395,4 +398,95 @@ video.banner-video {
 
 h2#wkd2e {
   padding: 12px 0px;
+}
+@media only screen and (max-width: 400px) {
+  .header-text {
+   font-size: 8pt !important;
+}
+
+}
+@media only screen and (max-width: 950px){
+  body {
+    overflow-x: hidden !important;
+  }
+  header.head-nav {
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+}
+
+.access-form-inputs {
+    flex-direction: row;
+    justify-content: center;
+}
+
+.wrapper567d4qwdi {
+    flex-direction: column;
+}
+
+.testi-card-row {
+    flex-direction: column;
+    width: 95%;
+}
+
+.\32 d3exc {
+    flex-direction: column;
+    width: 84%;
+    margin: auto;
+}
+
+.graphims7 img {
+    width: 100%;
+}
+
+img.im-logo {
+    height: 63px;
+}
+
+.header-text {
+    margin: 0;
+    width: 98%;
+    margin: auto;
+    box-sizing: border-box;
+    font-size: 10pt;
+    text-align: center;
+}
+
+video.banner-video {
+    width: 95%;
+    box-sizing: border-box;
+}
+
+form.access-form {
+    box-sizing: border-box;
+    width: 95%;
+    justify-content: center;
+}
+
+.access-form-inputs input {
+    font-size: 12pt;
+    /* flex-basis: auto; */
+    box-sizing: border-box;
+    width: calc(50% - 2.5px);
+}
+
+.sponser-row {
+}
+
+.sponser-row img {
+    width: 85%;
+}
+
+.zipper-container {
+    width: 100%;
+    text-align: center;
+    font-size: 15pt;
+}
+.intro-footer {
+  height: 16rem;
+  bottom: -6rem;
+}
+button.zipper-login-btn {
+  font-size: 13pt;
+}
 }

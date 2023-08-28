@@ -3,14 +3,12 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Home</title>
-    <link rel="stylesheet" href="./home.css" />
+    <title>Welcome To Lucrosa</title>
+	<link rel="icon" href="./assets/ficon.png" />
+    <link rel="stylesheet" href="./assets/home.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Roboto:wght@300;400;500;700&display=swap"
-      rel="stylesheet"
-    />
+    <link href="https://fonts.googleapis.com/css2?family=Mr+De+Haviland&family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet" />
   </head>
   <body>
     <header class="head-nav">
@@ -18,20 +16,14 @@
         <img src="./assets/logo.png" class="im-logo" />
       </div>
       <div class="header-text">
-        MAKE <span class="text-accent">$210,000</span> EVERY SINGLE MONTH
-        GUARANTEED!
+        MAKE <span class="text-accent">$210,000</span> EVERY SINGLE MONTH GUARANTEED!
       </div>
     </header>
     <section class="intro-container">
-      <!-- Embedded Youtube video -->
-
+	
+      <!-- presentation video -->
       <div class="banner-container">
-        <video class="banner-video" controls>
-          <source
-            src="assets/Big_Buck_Bunny_720_10s_1MB.mp4"
-            type="video/mp4"
-          />
-        </video>
+        <video class="banner-video" controls autoplay><source src="assets/presentation.mp4" type="video/mp4"></video>
       </div>
 
       <div class="5cdkfnm4" id="somelines">
@@ -44,24 +36,18 @@
       </div>
       <form method="post" class="access-form">
         <div class="access-form-inputs">
-          <input type="text" placeholder="Enter Your Name Here" />
-          <input type="text" placeholder="Enter Your Email Here" />
+          <input type="text" name="full_name" placeholder="Enter Your Name Here" required />
+          <input type="email" name="email_address" placeholder="Enter Your Email Here" required />
         </div>
-
-        <button class="btn-access-now">GET ACCESS NOW!</button>
+        <button class="btn-access-now" name="get_access_now">GET ACCESS NOW!</button>
       </form>
       <div class="sponser-row">
-        <img src="./assets/sponsors.png" alt="" />
+        <img src="./assets/sponsors.png" width="38%" />
       </div>
       <div class="intro-footer">
         <div class="zipper-container">
           ALREADY A MEMBER
-          <button
-            onclick="window.location.assign('/login.php')"
-            class="zipper-login-btn"
-          >
-            LOGIN
-          </button>
+          <button onclick="window.location.assign('./app')" class="zipper-login-btn">LOGIN</button>
         </div>
       </div>
     </section>
@@ -73,24 +59,21 @@
           <div class="c-1-ic"><img src="assets/profit.png" alt="" /></div>
           <div class="c-1-ttl">Guaranteed Daily Profits</div>
           <div class="c-1-desc">
-            Our automated tracking system GUARANTEES daily profits of at least
-            $7,250 per day.
+            Our automated tracking system GUARANTEES daily profits of at least $7,250 per day.
           </div>
         </div>
         <div class="c-1">
           <div class="c-1-ic"><img src="assets/rate.png" alt="" /></div>
           <div class="c-1-ttl">Proven Success Rate</div>
           <div class="c-1-desc">
-            Lucrosa uses cutting-edge technology to identify winning trades with
-            remarkable accuracy.
+            Lucrosa uses cutting-edge technology to identify winning trades with remarkable accuracy.
           </div>
         </div>
         <div class="c-1">
           <div class="c-1-ic"><img src="assets/risk_free.png" alt="" /></div>
           <div class="c-1-ttl">100% Risk Free</div>
           <div class="c-1-desc">
-            Trades will only be placed if Lucrosa is absolutely certain its's
-            going to profit!
+            Trades will only be placed if Lucrosa is absolutely certain its's going to profit!
           </div>
         </div>
       </div>
@@ -102,7 +85,7 @@
         <div class="testi-card">
           <div class="testicard-avatar">
             <video class="testicard-avatar-video" controls>
-              <source src="assets/video.mp4" type="video/mp4" />
+              <source src="assets/testimonial_1.mp4" type="video/mp4" />
             </video>
           </div>
           <div class="testicard-peron-ttl">MOMMA BENJAMIN</div>
@@ -124,7 +107,7 @@
         <div class="testi-card">
           <div class="testicard-avatar">
             <video class="testicard-avatar-video" controls>
-              <source src="assets/video.mp4" type="video/mp4" />
+              <source src="assets/testimonial_2.mp4" type="video/mp4" />
             </video>
           </div>
           <div class="testicard-peron-ttl">AMAR OLIVIA</div>
@@ -148,14 +131,14 @@
         <div class="testi-card">
           <div class="testicard-avatar">
             <video class="testicard-avatar-video" controls>
-              <source src="assets/video.mp4" type="video/mp4" />
+              <source src="assets/testimonial_3.mp4" type="video/mp4" />
             </video>
           </div>
-          <div class="testicard-peron-ttl">MARIA CLOSE</div>
-          <div class="testicard-location">SWITZERLAND</div>
+          <div class="testicard-peron-ttl">MARIA NARVAEZ</div>
+          <div class="testicard-location">PUERTO RICO</div>
           <div class="testicard-period">
             <p>Joined 07.31.2023</p>
-            <p>Profits to Date: $378,221.90</p>
+            <p>Profits to Date: $278,221.90</p>
           </div>
           <div class="des-par">
             “This is my first time to invest in your platform. I thought it
@@ -170,7 +153,7 @@
         <div class="testi-card">
           <div class="testicard-avatar">
             <video class="testicard-avatar-video" controls>
-              <source src="assets/video.mp4" type="video/mp4" />
+              <source src="assets/testimonial_4.mp4" type="video/mp4" />
             </video>
           </div>
           <div class="testicard-peron-ttl">AMBRO SMITH</div>
@@ -195,20 +178,20 @@
     <div class="home-graph-container">
       <div class="2d3exc">
         <div class="colA">
-          <div class="4564dfdehn">
+          <h3 align="center">
             Profits made by Lucrosa Members Between August 2022 and Macrh 2023
-          </div>
+          </h3>
           <div class="graphims7">
             <img src="./assets/graph.jpg" alt="profit graph" />
           </div>
         </div>
         <div class="colB">
-          <h2 class="45cedewd">
+          <h3 class="45cedewd">
             MEMBERS IN United States ARE EARNING $600 PER HOUR WITH LUCROSA
-          </h2>
+          </h3>
           <p class="s23re">
             Lucrosa works on a simple principle all the trading markets abide
-            by. The fact they repeat themselves over time, in a set way. If you
+            by The fact they repeat themselves over time, in a set way. If you
             know the secrets to this then you will always be able to make money.
           </p>
           <p class="s23re">
@@ -233,6 +216,6 @@
       <h3 class="footline1">Copyright © 2023 All Rights Reserved</h3>
       <h3 class="footline2">License No. 09199504 - LUCROSE LTD</h3>
     </footer>
-    <script src="./home.js"></script>
+    <script src="./assets/home.js"></script>
   </body>
 </html>
